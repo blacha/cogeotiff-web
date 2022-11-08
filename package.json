@@ -11,7 +11,7 @@
   "scripts": {
     "build": "tsc",
     "lint": "eslint . --quiet --fix --ignore-path .gitignore",
-    "bundle": "esbuild build/index.js --bundle --outfile=dist/index.js"
+    "bundle": "esbuild build/index.js --bundle --outfile=dist/index.js --loader:.png=dataurl"
   },
   "publishConfig": {
     "access": "public"

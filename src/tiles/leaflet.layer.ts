@@ -2,6 +2,8 @@ import { Vector } from '@cogeotiff/core';
 import * as L from 'leaflet';
 import { CanvasTiler } from './canvas.layer';
 
+import 'leaflet/dist/leaflet.css';
+
 let CanvasCounter = 0;
 
 export class CogLayer extends L.GridLayer {
