@@ -1,0 +1,13 @@
+{
+  "extends": "@linzjs/style/tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2020", "dom"],
+    "module": "ES2020",
+    "moduleResolution": "Node",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "include": ["src/**/*"]
+}

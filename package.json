@@ -1,0 +1,42 @@
+{
+  "name": "@cogeotiff/web",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blacha/cogeotiff-web.git"
+  },
+  "author": "Blayne Chard",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --quiet --fix --ignore-path .gitignore",
+    "bundle": "esbuild build/index.js --bundle --outfile=dist/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@basemaps/geo": "^6.32.1",
+    "@chunkd/source-http": "^10.0.0",
+    "@cogeotiff/core": "^7.2.0",
+    "@linzjs/style": "^3.12.0",
+    "@types/geojson": "^7946.0.7",
+    "@types/leaflet": "^1.5.15",
+    "@types/node": "^18.11.9",
+    "@types/ospec": "^4.0.4",
+    "cssnano": "^5.0.1",
+    "esbuild": "^0.15.13",
+    "leaflet": "^1.6.0",
+    "ospec": "^4.1.6",
+    "preact": "^10.5.12",
+    "typestyle": "2.4.0",
+    "water.css": "^2.0.0"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
