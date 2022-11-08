@@ -36,7 +36,5 @@
   "browserslist": [
     "last 2 Chrome versions"
   ],
-  "dependencies": {
-    "parcel": "^2.7.0"
-  }
+  "dependencies": {}
 }
