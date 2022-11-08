@@ -5,6 +5,9 @@ import { CogAdd } from './components/cog.add.button';
 import { WebMap } from './components/map';
 import { Cogs } from './service/cogs';
 import { Url } from './service/url';
+
+import 'water.css/out/dark.css';
+
 export const CogCache: Map<string, CogTiff> = new Map();
 
 interface MainPageState {
